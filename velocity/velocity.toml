@@ -1,0 +1,14 @@
+[servers]
+default = "v1_8_8"
+
+[servers.v1_8_8]
+bind = "0.0.0.0:25566"
+
+[servers.v1_12_2]
+bind = "0.0.0.0:25567"
+
+[forced-hosts]
+"*" = ["v1_8_8", "v1_12_2"]
+
+[advanced]
+enable-eaglercraft = true
