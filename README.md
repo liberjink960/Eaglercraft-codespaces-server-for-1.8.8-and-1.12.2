@@ -1,7 +1,7 @@
 # Eaglercraft-codespaces-server-for-1.8.8-and-1.12.2
 Hello
 This is a repo that lets you use codespaces to have an Eaglercraft server compatible with both eagler 1.8 and 1.12
-Java compatibily:IDK
+The server may not work in java edition, this is eaglercraft ONLY(possible java compatibility in future)
 # NOTE:STILL IN DEVELOPMENT
 # TO START THE SERVER
 Create a codespace
