@@ -2,6 +2,12 @@
 v1_8_8 = "127.0.0.1:25566"
 v1_12_2 = "127.0.0.1:25567"
 
+# The server players join first
+try = ["v1_8_8"]
+
+# If a server goes down, players are sent here
+fallback = "v1_8_8"
+
 [forced-hosts]
 "*" = ["v1_8_8", "v1_12_2"]
 
@@ -15,3 +21,6 @@ compression-level = -1
 login-ratelimit = 300
 connection-timeout = 5000
 read-timeout = 30000
+
+# Eaglercraft uses offline-mode UUIDs, so this is correct
+player-info-forwarding-mode = "none"
