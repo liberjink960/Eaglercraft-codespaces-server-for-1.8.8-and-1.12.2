@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/java:21",
   "features": {
     "ghcr.io/devcontainers/features/apt-packages:1": {
-      "packages": "openjdk-8-jre-headless"
+      "packages": "openjdk-8-jre-headless openjdk-11-jre-headless openjdk-17-jre-headless"
     }
   },
   "forwardPorts": [25565, 25566, 25567],
