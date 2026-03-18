@@ -2,5 +2,5 @@
   "name": "Eaglercraft Multi-Version Server",
   "image": "mcr.microsoft.com/devcontainers/java:21",
   "forwardPorts": [25565, 25566, 25567],
-  "postCreateCommand": "chmod +x start.sh"
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y openjdk-8-jre-headless && chmod +x start.sh"
 }
